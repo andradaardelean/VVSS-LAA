@@ -1,0 +1,21 @@
+
+¨
+java:S1192D"eDefine a constant instead of duplicating this literal "IO exception reading or writing file" 8 times.(ÌÔü¦8 ¿ÍËâ1J$93d71863-3dfc-4bef-940b-b173cb33c3ef
+›	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¼ÌÔ;8—´¨Ëâ1J$c0c06536-0f83-41f7-a080-4a1256963cf0
+œ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ôâ»Ô8—´¨Ëâ1J$372eb324-3b86-4d1c-a024-155fce0303ef
+¡	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(İ–ë“ûÿÿÿÿ8—´¨Ëâ1J$bc8f0a39-18bc-4b6f-9a88-2b753198302a
+‚
+java:S1118":Add a private constructor to hide the implicit public one.(Ğœê†úÿÿÿÿ8›´¨Ëâ1J$7c8378f7-95e5-4213-8e84-c3e0f36314ea
+u
+java:S2885"-Make "simpleDateFormat" an instance variable.(ËÒÌıøÿÿÿÿ8œ´¨Ëâ1J$6b43cef7-9aa1-45c9-8eb4-fa6236965330
+x
+java:S1481/"0Remove this unused "titleLength" local variable.(ìôå‰ÿÿÿÿÿ8¾šÍËâ1J$ed2dc18e-55cd-43f9-ad3a-3431f96394a6
+›
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(œÂÁñøÿÿÿÿ8Ï´¨Ëâ1J$eb019cb4-f25d-4bd1-80ef-aebcae79873a
+‹
+java:S1659‘"BDeclare "hours" and all following declarations on a separate line.(ÚåÏ¾üÿÿÿÿ8Ò´¨Ëâ1J$2b786883-679d-42fc-8406-f328ab0d5b5c
+h
+java:S1659"Declare "j" on a separate line.(Ù é®şÿÿÿÿ8Ò´¨Ëâ1J$9fbe2d4e-1d92-4683-872d-9731de3e588e
+„	java:S125¤"<This block of commented-out lines of code should be removed.(À›¸Öûÿÿÿÿ8Õ´¨Ëâ1J$7af86eda-4cbd-4301-a038-dace5e546cb9
+j
+java:S1659¿"!Declare "end" on a separate line.(ÍôÁÑıÿÿÿÿ8×´¨Ëâ1J$d23bd4e8-b544-43ef-860c-098c12ef8695

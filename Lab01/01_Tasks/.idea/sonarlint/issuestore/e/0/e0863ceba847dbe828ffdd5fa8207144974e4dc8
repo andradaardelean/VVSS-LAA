@@ -1,0 +1,9 @@
+
+n
+java:S1948/"&Make "last" transient or serializable.(š§æäùÿÿÿÿ8‰Ô¾Çâ1J$15bd3985-5021-4072-ba52-0759038bbd9b
+Ä
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(õÌƒ«8µÇÇâ1J$bcbdf935-6a90-4272-aae0-3175ba46df38
+œ
+java:S2975¸"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(Óıôîûÿÿÿÿ8ŸÔ¾Çâ1J$e8829db0-ff3d-4731-8ca2-0ddb0b33df81
+‘
+java:S1182¸"HUse super.clone() to create and seed the cloned instance to be returned.(Óıôîûÿÿÿÿ8 Ô¾Çâ1J$09777cdd-e27b-4d77-bfd5-0aff83b8672b

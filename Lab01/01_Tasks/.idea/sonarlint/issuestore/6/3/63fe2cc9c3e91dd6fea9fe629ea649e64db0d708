@@ -1,0 +1,14 @@
+
+g
+java:S1301N"KReplace this "switch" statement by "if" statements to increase readability.(¯ßğ8£—ÉÌâ1
+U
+java:S2589Ü"7Remove this expression which always evaluates to "true"(ô¢û¹8ß—ÉÌâ1
+=	java:S131N""Add a default case to this switch.(¯ßğ8è—ÉÌâ1
+X	java:S125W"<This block of commented-out lines of code should be removed.(Ô€‚’8é—ÉÌâ1
+W
+java:S2209h"5Change this instance-reference to a static reference.(¹†³¹şÿÿÿÿ8ì—ÉÌâ1
+W
+java:S2209n"5Change this instance-reference to a static reference.(éÊº²üÿÿÿÿ8í—ÉÌâ1
+u
+java:S3776Œ"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(‹¿°Éşÿÿÿÿ8ú—ÉÌâ1
+M	java:S106Ô"+Replace this use of System.out by a logger.(®ıáëûÿÿÿÿ8»˜ÉÌâ1
