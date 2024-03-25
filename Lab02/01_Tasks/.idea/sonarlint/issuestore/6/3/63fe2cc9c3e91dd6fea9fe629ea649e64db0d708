@@ -1,0 +1,30 @@
+
+œ	java:S109¯"TAssign this magic number 350 to a well-named constant, and use the constant instead.(ïŠïÌıÿÿÿÿ8ÒƒÜÆâ1J$e85c2114-0a70-4890-b757-5632314be1a1
+œ	java:S109¯"TAssign this magic number 150 to a well-named constant, and use the constant instead.(ïŠïÌıÿÿÿÿ8ÒƒÜÆâ1J$9aa698ec-d170-4ca8-9001-f5e55328ceab
+ƒ
+java:S1312"@Rename the "log" logger to comply with the format "LOG(?:GER)?".(µƒŞ·8ÔƒÜÆâ1J$063e9b4d-152d-4565-aee0-8eaa24c8eb41
+i
+java:S1166´"%Either log or rethrow this exception.(ç¤çº8ÕƒÜÆâ1J$a8086736-a8be-4ce2-8390-cc230e3bed38
+i
+java:S1166ª"%Either log or rethrow this exception.(§Ôë½8ÕƒÜÆâ1J$9a58a4b0-ad91-422d-ac60-2cd0e4584bf6
+_
+java:S2384F"Store a copy of "tasksList".(¯ÅòÁ8×ƒÜÆâ1J$e61d2d77-b06d-4e57-94b6-9f836f607997
+
+java:S1301O"KReplace this "switch" statement by "if" statements to increase readability.(¯ßğ8ØƒÜÆâ1J$c55f4138-5116-41a1-961a-23256fb8fdb6
+a
+java:S1451"&Add or update the header of this file.8¢„ÜÆâ1J$3ff36d1e-c112-458d-ae65-bd22ad78cb68
+	java:S103¾"KSplit this 126 characters long line (which is greater than 120 authorized).(Òı¸¼8£„ÜÆâ1J$739ebf05-b144-458f-a55e-7ab4426bec8b
+}
+java:S1258":Add a constructor to the class, or provide default values.(ÙÇô³8¥„ÜÆâ1J$dfca0dbc-d39f-45dc-b0d1-248c1efc0638
+c	java:S131O""Add a default case to this switch.(¯ßğ8²„ÜÆâ1J$1baa9328-d78c-4d2f-a98b-813447975f63
+~	java:S125X"<This block of commented-out lines of code should be removed.(Ô€‚’8µ„ÜÆâ1J$ca926644-a27f-4b30-904a-ae180865d8ff
+}
+java:S2209i"5Change this instance-reference to a static reference.(¹†³¹şÿÿÿÿ8¹„ÜÆâ1J$9b377460-2a82-4b17-8e94-fc69f4604e11
+}
+java:S2209o"5Change this instance-reference to a static reference.(éÊº²üÿÿÿÿ8»„ÜÆâ1J$f1e9e81f-fc54-4d28-b8c4-d2648d0cabe5
+—
+java:S3242y"OUse 'java.util.EventObject' here; it is a more general type than 'ActionEvent'.(šÃ—Íÿÿÿÿÿ8¾„ÜÆâ1J$0bae986b-6c09-4fcf-917b-bfb9c909b448
+‚	java:S126~";"if ... else if" constructs should end with "else" clauses.(Ûõò‹ûÿÿÿÿ8¿„ÜÆâ1J$e5bc0553-c9aa-48f5-9153-28032bfa7976
+œ	java:S122"TAt most one statement is allowed per line, but 2 statements were found on this line.(¤Í¿£üÿÿÿÿ8ë„ÜÆâ1J$d331da88-7378-48a5-8151-e1430e515240
+œ	java:S122Ä"TAt most one statement is allowed per line, but 2 statements were found on this line.(¶¹ıĞùÿÿÿÿ8ş„ÜÆâ1J$2c8a2eb3-a99b-4966-82c9-f5c444eeec63
+s	java:S106Ì"+Replace this use of System.out by a logger.(®ıáëûÿÿÿÿ8‚…ÜÆâ1J$f91d3e90-e31e-40ed-b398-78bc254fe343
