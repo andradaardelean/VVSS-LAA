@@ -1,0 +1,339 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>testspec Prj231 - blir3065_BBT</title>
+<link type="text/css" rel="stylesheet" href="https://www.scs.ubbcluj.ro/testlink/gui/themes/default/css/tl_documents.css" />
+<style type="text/css" media="print">.notprintable { display:none;}</style>
+</head>
+<body>
+<div>
+<div style="float:right;">TestLink Community [configure $tlCfg-&gt;document_generator-&gt;company_name]</div>
+<div>&nbsp;</div><hr />
+<p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo"  width= height= src="https://www.scs.ubbcluj.ro/testlink/gui/themes/default/images/tl-logo-transparent-25.png" /></p></div>
+<div class="doc_title"><p>Test Specification</p></div>
+<div class="doc_title" style="text-align:left;margin: auto;"><p>Test Project: Prj231<br/>Test Suite: Prj231 - blir3065_BBT</p></div>
+<div class="summary"><p id="printedby">Printed by TestLink on 25/03/2024</p></div>
+<div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
+<h1 class="general" style="page-break-before: always">Table Of Contents</h1><div class="toc"><p style="padding-left: 20px;"><b><a href="#toc_1">1.blir3065_BBT</a></b></p>
+<p style="padding-left: 45px;"><a href="#toc_tc20361">P231-3: add1_ECP</a></p><p style="padding-left: 45px;"><a href="#toc_tc20363">P231-4: add2_ECP</a></p><p style="padding-left: 45px;"><a href="#toc_tc20369">P231-7: add1_BVA</a></p><p style="padding-left: 45px;"><a href="#toc_tc20371">P231-8: add2_BVA</a></p></div><h1 class="doclevel" >Scope</h1>
+<div class="txtlevel"><p>Testing project for group 231</p></div>
+ <br/><a name='toc_1'></a>
+<h1 class='doclevel'>1.Test Suite : blir3065_BBT</h1>
+<div><p>Se testeaza adaugarea unui nou task.&nbsp;</p>
+</div><a name="toc_tc20361"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case P231-3: add1_ECP&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">blir3065@scs.ubbcluj.ro</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><table border="1" cellpadding="1" cellspacing="1" style="width:500px">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="2">NR. TC</td>
+			<td colspan="1" rowspan="2">EC.Input</td>
+			<td colspan="1" rowspan="2">Ec.Output</td>
+			<td>Input</td>
+			<td colspan="1" rowspan="2">Output</td>
+		</tr>
+		<tr>
+			<td>escriere, data inceput, ora inceput</td>
+		</tr>
+		<tr>
+			<td>TC01</td>
+			<td>1,4</td>
+			<td>true</td>
+			<td>&quot;test&quot;, 2024/03/24, 16:53</td>
+			<td>true</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><table border="1" cellpadding="1" cellspacing="1" style="width:500px">
+	<tbody>
+		<tr>
+			<td>Nr. EC</td>
+			<td>Conditie</td>
+			<td>EC valida</td>
+			<td>EC non-valida</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td colspan="1" rowspan="3">00&lt;=hh&lt;=23, hh-nr. natural</td>
+			<td>00&lt;=hh&lt;=23</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>hh&lt;00</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>hh&gt;23</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td colspan="1" rowspan="3">00&lt;=mm&lt;=59, mm-nr.natural</td>
+			<td>00&lt;=mm&lt;=59</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>mm&lt;00</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>mm&gt;59</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">blir3065_F01:  AddTask [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc20363"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case P231-4: add2_ECP&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">blir3065@scs.ubbcluj.ro</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><table border="1" cellpadding="1" cellspacing="1">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="2">NR. TC</td>
+			<td colspan="1" rowspan="2">EC.Input</td>
+			<td colspan="1" rowspan="2">Ec.Output</td>
+			<td>Input</td>
+			<td colspan="1" rowspan="2">Output</td>
+		</tr>
+		<tr>
+			<td>escriere, data inceput, ora inceput</td>
+		</tr>
+		<tr>
+			<td>TC01</td>
+			<td>1,4</td>
+			<td>true</td>
+			<td>&quot;test&quot;, 2024/03/24, 66:53</td>
+			<td>false</td>
+		</tr>
+	</tbody>
+</table>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><table border="1" cellpadding="1" cellspacing="1">
+	<tbody>
+		<tr>
+			<td>Nr. EC</td>
+			<td>Conditie</td>
+			<td>EC valida</td>
+			<td>EC non-valida</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td colspan="1" rowspan="3">00&lt;=hh&lt;=23, hh-nr. natural</td>
+			<td>00&lt;=hh&lt;=23</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>hh&lt;00</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>hh&gt;23</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td colspan="1" rowspan="3">00&lt;=mm&lt;=59, mm-nr.natural</td>
+			<td>00&lt;=mm&lt;=59</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>mm&lt;00</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>mm&gt;59</td>
+		</tr>
+	</tbody>
+</table>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">blir3065_F01:  AddTask [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc20369"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case P231-7: add1_BVA&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">blir3065@scs.ubbcluj.ro</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><table border="1" cellpadding="1" cellspacing="1">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="2">NR. TC_BVA</td>
+			<td colspan="1" rowspan="2">Conditie BVA</td>
+			<td>Input</td>
+			<td colspan="1" rowspan="2">Output</td>
+		</tr>
+		<tr>
+			<td>Descriere, data inceput, ora inceput</td>
+		</tr>
+		<tr>
+			<td>TC01</td>
+			<td>6,12</td>
+			<td>&quot;test&quot;, 2024/03/24, 24:60</td>
+			<td>false</td>
+		</tr>
+	</tbody>
+</table>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><table border="1" cellpadding="1" cellspacing="1">
+	<tbody>
+		<tr>
+			<td>Nr. Conditie BVA</td>
+			<td>EC asociata</td>
+			<td>Conditie BVA</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="6">1</td>
+			<td colspan="1" rowspan="6">00&lt;=hh&lt;=23</td>
+			<td>1. hh=-1</td>
+		</tr>
+		<tr>
+			<td>2. hh=00</td>
+		</tr>
+		<tr>
+			<td>3. hh=01</td>
+		</tr>
+		<tr>
+			<td>4. hh=22</td>
+		</tr>
+		<tr>
+			<td>5. hh=23</td>
+		</tr>
+		<tr>
+			<td>6. hh=24</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="6">2</td>
+			<td colspan="1" rowspan="6">00&lt;=mm&lt;=23</td>
+			<td>7. mm=-1</td>
+		</tr>
+		<tr>
+			<td>8. mm=00</td>
+		</tr>
+		<tr>
+			<td>9. mm =01</td>
+		</tr>
+		<tr>
+			<td>10. mm=58</td>
+		</tr>
+		<tr>
+			<td>11. mm=59</td>
+		</tr>
+		<tr>
+			<td>12. mm=60</td>
+		</tr>
+	</tbody>
+</table>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">blir3065_F01:  AddTask [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc20371"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case P231-8: add2_BVA&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">blir3065@scs.ubbcluj.ro</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><table border="1" cellpadding="1" cellspacing="1">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="2">NR. TC_BVA</td>
+			<td colspan="1" rowspan="2">Conditie BVA</td>
+			<td>Input</td>
+			<td colspan="1" rowspan="2">Output</td>
+		</tr>
+		<tr>
+			<td>Descriere, data inceput, ora inceput</td>
+		</tr>
+		<tr>
+			<td>TC01</td>
+			<td>2,8</td>
+			<td>&quot;test&quot;, 2024/03/24, 00:00</td>
+			<td>true</td>
+		</tr>
+	</tbody>
+</table>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><table border="1" cellpadding="1" cellspacing="1">
+	<tbody>
+		<tr>
+			<td>Nr. Conditie BVA</td>
+			<td>EC asociata</td>
+			<td>Conditie BVA</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="6">1</td>
+			<td colspan="1" rowspan="6">00&lt;=hh&lt;=23</td>
+			<td>1. hh=-1</td>
+		</tr>
+		<tr>
+			<td>2. hh=00</td>
+		</tr>
+		<tr>
+			<td>3. hh=01</td>
+		</tr>
+		<tr>
+			<td>4. hh=22</td>
+		</tr>
+		<tr>
+			<td>5. hh=23</td>
+		</tr>
+		<tr>
+			<td>6. hh=24</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="6">2</td>
+			<td colspan="1" rowspan="6">00&lt;=mm&lt;=23</td>
+			<td>7. mm=-1</td>
+		</tr>
+		<tr>
+			<td>8. mm=00</td>
+		</tr>
+		<tr>
+			<td>9. mm =01</td>
+		</tr>
+		<tr>
+			<td>10. mm=58</td>
+		</tr>
+		<tr>
+			<td>11. mm=59</td>
+		</tr>
+		<tr>
+			<td>12 mm=60</td>
+		</tr>
+	</tbody>
+</table>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">blir3065_F01:  AddTask [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+
+</body>
+</html>
