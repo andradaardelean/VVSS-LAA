@@ -27,3 +27,11 @@ W
 ,src/main/java/tasks/model/ArrayTaskList.java,f\7\f77a2442ed82eb8b7386f5c9a49162f894ad8a61
 >
 data/tasks.txt,c\8\c8717992ac90be128c21fa680a390954dd3ffb86
+<
+01_Tasks.iml,b\d\bdb3226c332de5405059c4c6c04ebd0397df388f
+W
+'src/test/java/tasks/model/TaskTest.java,3\1\31324894a484d06adcd87a923fb98e2c49cb815e
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+b
+2src/test/java/tasks/services/TasksServiceTest.java,1\e\1ed2e4afe6f0e30a24669299239d591463d36916

@@ -61,3 +61,22 @@
 2024-03-25 18:27:04 ERROR Task:41 - interval < than 1
 2024-03-25 18:56:02 ERROR Task:37 - time below bound
 2024-03-25 19:03:10 ERROR Task:37 - time below bound
+2024-03-25 22:54:33 ERROR Task:46 - interval < than 1
+2024-03-25 22:54:33 ERROR Task:37 - time below bound
+2024-03-25 22:54:37 ERROR Task:46 - interval < than 1
+2024-03-25 22:54:37 ERROR Task:37 - time below bound
+2024-03-25 23:43:13 INFO  Main:34 - saved data reading
+2024-03-25 23:43:13 INFO  Main:39 - application start
+2024-03-25 23:43:14 INFO  Controller:74 - Main controller initializing
+2024-03-25 23:44:54 INFO  TaskInfoController:24 - task info window initializing
+2024-03-25 23:44:54 ERROR Controller:127 - error loading task-info.fxml
+2024-03-25 23:44:55 INFO  TaskInfoController:24 - task info window initializing
+2024-03-25 23:44:55 ERROR Controller:127 - error loading task-info.fxml
+2024-03-26 12:27:09 ERROR Task:46 - interval < than 1
+2024-03-26 12:27:09 ERROR Task:37 - time below bound
+2024-03-26 12:42:00 ERROR Task:46 - interval < than 1
+2024-03-26 12:42:00 ERROR Task:37 - time below bound
+2024-03-26 12:52:43 ERROR Task:46 - interval < than 1
+2024-03-26 12:52:43 ERROR Task:37 - time below bound
+2024-03-26 13:20:28 ERROR Task:46 - interval < than 1
+2024-03-26 13:20:28 ERROR Task:37 - time below bound

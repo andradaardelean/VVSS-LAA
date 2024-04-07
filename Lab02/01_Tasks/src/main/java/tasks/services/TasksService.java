@@ -43,11 +43,13 @@ public class TasksService {
     public int parseFromStringToSeconds(String stringTime){//hh:MM
         String[] units = stringTime.split(":");
         int hours = Integer.parseInt(units[0]);
-        if(hours > 24){
+//        if(hours > 24){ //initial
+        if(hours < 0 || hours >= 24){
             throw new IllegalArgumentException();
         }
         int minutes = Integer.parseInt(units[1]);
-        if(minutes > 60){
+//        if(minutes > 60){ //initial
+        if(minutes < 0 || minutes >= 60){
             throw new IllegalArgumentException();
         }
         return (hours * DateService.MINUTES_IN_HOUR + minutes) * DateService.SECONDS_IN_MINUTE;

@@ -1,25 +1,13 @@
 
-•	java:S134'"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(€Û½¼ıÿÿÿÿ8„û¢Èâ1J$79433103-89e9-42a8-8cee-aff64898ab77
-•	java:S134,"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(é¹ÿüÿÿÿÿ8…û¢Èâ1J$cd162649-1800-4541-860f-4afc43abb2a5
-†
-java:S1312"CRename the "logger" logger to comply with the format "LOG(?:GER)?".(»¾à¨8†û¢Èâ1J$486211d7-98aa-45f7-bfdc-4e7783db28c2
 r
 java:S1066-"/Merge this if statement with the enclosing one.(ÈĞÚ¨8†û¢Èâ1J$32e5cdb2-090c-459a-a9dc-951e1372308e
-_
-java:S2384"Store a copy of "tasksList".(¯ÅòÁ8‡û¢Èâ1J$0d1ab038-e2d4-44d4-b65e-28e3d8161dbb
 ‰
 java:S21847"FCast one of the operands of this multiplication operation to a "long".( …“8ˆû¢Èâ1J$f8b46586-a4f0-4677-b17e-9db010d92e7c
-a
-java:S1451"&Add or update the header of this file.8ïû¢Èâ1J$5215753a-510a-45fa-8016-1f208aff4326
 œ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(©Ù§š8ïû¢Èâ1J$3014f066-526a-47d5-b301-7800954fceb4
 ¡	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(İ–ë“ûÿÿÿÿ8ïû¢Èâ1J$024d9940-a912-4ec3-bbf2-d80e6ee4b998
 š
 java:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(ÿŸ¾Ğüÿÿÿÿ8óû¢Èâ1J$90a1949f-0723-48fc-935a-7874b3e78c9e
-l
-java:S2143")Use the Java 8 Date and Time API instead.(‡º¹Á8ôû¢Èâ1J$b13693b5-0144-47ca-a891-0ff324a3c4e0
 ¡
 java:S21429"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8öû¢Èâ1J$5bc00eaf-ce47-407f-9d77-a84787615007
-q
-java:S2143<")Use the Java 8 Date and Time API instead.(øó”åúÿÿÿÿ8÷û¢Èâ1J$7e3c3ea4-ec1e-48ac-ab49-628657356c5c
 o
 java:S1602A",Remove useless curly braces around statement(ÃÉş©8øû¢Èâ1J$797cb6e4-909f-4f6d-ae1d-cf6dad5dbb48

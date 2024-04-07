@@ -1,62 +1,9 @@
 
-—	java:S109m"UAssign this magic number 1000 to a well-named constant, and use the constant instead.(®Ëâ‚8÷á¨Çâ1J$b27c016a-2262-46e4-b4dc-6a11edd734fa
-œ	java:S109o"UAssign this magic number 1000 to a well-named constant, and use the constant instead.(åœåıÿÿÿÿ8÷á¨Çâ1J$bea65eab-a6a6-44a3-b108-9642faf5013d
-œ	java:S109s"UAssign this magic number 1000 to a well-named constant, and use the constant instead.(æªÖÿøÿÿÿÿ8÷á¨Çâ1J$27a174b4-9eec-4f23-83d7-a308c3a7c101
-•	java:S134n"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(²Åä¬ÿÿÿÿÿ8ùá¨Çâ1J$38239598-2752-4510-b8d9-6c4a78ce2855
-•	java:S134p"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(•êñ™úÿÿÿÿ8ùá¨Çâ1J$969db838-9fd5-4cbd-80b6-cb46b5a12aca
-ˆ
-java:S1312"@Rename the "log" logger to comply with the format "LOG(?:GER)?".(à¿¦¯ùÿÿÿÿ8úá¨Çâ1J$e3066baf-2768-44a9-bcc9-6db88701012a
-_
-java:S2384"Store a copy of "time".(™ıËßıÿÿÿÿ8ûá¨Çâ1J$8c309684-95d1-4dbf-808b-88fae5d77e17
-_
-java:S2384 "Store a copy of "time".(“–÷¨şÿÿÿÿ8ûá¨Çâ1J$9772a437-622d-40e6-a117-d00b7fcaadf4
-_
-java:S2384!"Store a copy of "time".(Å–ê±ùÿÿÿÿ8ûá¨Çâ1J$129d10cb-34b0-47ed-8226-47d2096ec1be
-[
-java:S2384-"Store a copy of "start".( ™€Ñ8ûá¨Çâ1J$39b30cb4-067e-4662-9f13-6cafef606d1d
-X
-java:S2384."Store a copy of "end".(™ÓÈ28ûá¨Çâ1J$24ae1810-382e-4847-99c7-ffaf1ef2097c
-`
-java:S23840"Store a copy of "start".(çÜ»šıÿÿÿÿ8ûá¨Çâ1J$86e4d49e-740d-4496-9274-3d6258a7b487
-[
-java:S2384C"Return a copy of "time".(˜Äå¯8ûá¨Çâ1J$db14ec95-8334-4364-b3b0-cdc73e7336e2
-_
-java:S2384G"Store a copy of "time".(™ıËßıÿÿÿÿ8ûá¨Çâ1J$1debc23d-7cad-475d-b875-3a5d1742bb31
-_
-java:S2384H"Store a copy of "time".(“–÷¨şÿÿÿÿ8ûá¨Çâ1J$d9b255d9-a0b4-4a2b-a002-106b31fbdcc1
-_
-java:S2384I"Store a copy of "time".(Å–ê±ùÿÿÿÿ8ûá¨Çâ1J$f8e7a9f7-5e0c-4120-9d8f-7a87b061f8bd
-a
-java:S2384N"Return a copy of "start".(¤îìòüÿÿÿÿ8ûá¨Çâ1J$a01348b6-f64b-432a-a121-6b63d846f11b
-Z
-java:S2384R"Return a copy of "end".(Ş½Óù8ûá¨Çâ1J$ce59baa5-7df3-4998-af72-20d9565ed5c5
-`
-java:S2384Y"Store a copy of "start".(çÜ»šıÿÿÿÿ8ûá¨Çâ1J$aff883fd-4609-4947-a054-957474ceee17
-[
-java:S2384Z"Store a copy of "start".( ™€Ñ8ûá¨Çâ1J$de928c72-cc83-49e7-864e-89cd14903368
-X
-java:S2384["Store a copy of "end".(™ÓÈ28ûá¨Çâ1J$02173c21-3ceb-413d-9a64-4522b74c6da9
-a
-java:S2384j"Return a copy of "start".(¤îìòüÿÿÿÿ8‡ä©Çâ1J$699fbb9a-c621-4ac2-9e7c-8970616a42e8
-[
-java:S2384x"Return a copy of "time".(˜Äå¯8‡ä©Çâ1J$9e7a29af-0890-4b9f-98e4-b2972e0b8633
-a
-java:S1451"&Add or update the header of this file.8“â¨Çâ1J$1097a63c-e72e-4414-9251-1e2595dfc57c
-‡
-java:S2057"?Add a "static final long serialVersionUID" field to this class.(¨—ğûøÿÿÿÿ8•â¨Çâ1J$dffee3de-cec4-4353-9f5a-c72d5391758e
 c
 java:S2885" Make "sdf" an instance variable.(¸‰ˆí8˜â¨Çâ1J$0a885648-58c3-49d0-af01-f707792349b5
 q
-java:S1940`")Use the opposite operator ("!=") instead.(‡í€µşÿÿÿÿ8›â¨Çâ1J$08b2a00a-394c-459c-9dc8-f0878d86a2d2
+java:S1940e")Use the opposite operator ("!=") instead.(‡í€µşÿÿÿÿ8›â¨Çâ1J$08b2a00a-394c-459c-9dc8-f0878d86a2d2
 š
-java:S3776c"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Î¥­üÿÿÿÿ8œâ¨Çâ1J$8cd2c8b2-eb9a-4312-8997-426d8a89ebe3
-«
-java:S1541c"cThe Cyclomatic Complexity of this method "nextTimeAfter" is 17 which is greater than 10 authorized.(Î¥­üÿÿÿÿ8â¨Çâ1J$97dee856-a3f5-4ab9-bbf6-75295f101c23
-q
-java:S2143o")Use the Java 8 Date and Time API instead.(åœåıÿÿÿÿ8 â¨Çâ1J$32b5c65b-dc99-4e65-b882-1974f5374450
-q
-java:S2143s")Use the Java 8 Date and Time API instead.(æªÖÿøÿÿÿÿ8 â¨Çâ1J$49a5af0d-a9fb-4f51-98df-e920efda8853
-„
-java:S1142c"<This method has 6 returns, which is more than the 3 allowed.(Î¥­üÿÿÿÿ8¡â¨Çâ1J$4f5cd638-f424-46d0-8aac-30ad279bc860
+java:S3776h"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Î¥­üÿÿÿÿ8œâ¨Çâ1J$8cd2c8b2-eb9a-4312-8997-426d8a89ebe3
 œ
-java:S2975º"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(®Ç‹¹şÿÿÿÿ8¤â¨Çâ1J$3d758ee7-756c-4384-8e5f-ea2de0181eb3
+java:S2975¿"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(®Ç‹¹şÿÿÿÿ8¤â¨Çâ1J$3d758ee7-756c-4384-8e5f-ea2de0181eb3

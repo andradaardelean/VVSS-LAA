@@ -1,21 +1,7 @@
 
-	java:S109,"SAssign this magic number 10 to a well-named constant, and use the constant instead.(Ó‚ÄJ$f80094a7-c2d4-4099-a18c-307e863eeddb
-	java:S1098"RAssign this magic number 2 to a well-named constant, and use the constant instead.(Œ¶úJ$01e9215b-4317-4f70-80c6-15fd78e7e009
-ˆ	java:S881"HExtract this increment or decrement operator into a dedicated statement.(Ã×øùûÿÿÿÿJ$71835467-b8d9-4a70-9217-7d716baae651
-|
-java:S1312"@Rename the "log" logger to comply with the format "LOG(?:GER)?".(˜ŒÒ”J$200f34d7-a6e4-4f55-aa92-3112f2cd4022
-Z	java:S113"'Add a new line at the end of this file.J$31ea19c2-bc83-4d09-812f-9abee552d9ed
-Z
-java:S1451"&Add or update the header of this file.J$7b24cd4c-b4a5-4578-8dd0-254531801a5e
-j
-java:S2208".Explicitly import the specific classes needed.(Î€ŒÙJ$b7a52833-f5f1-47ae-a452-f48a26dcfcc9
-€
-java:S2057	"?Add a "static final long serialVersionUID" field to this class.(ºû¹àúÿÿÿÿJ$82fff1ff-98cf-4005-a939-0c25505a058e
-{
-java:S1258":Add a constructor to the class, or provide default values.(šäÛşÿÿÿÿJ$dd8d3e1c-efec-4b51-8864-1f79567eff4c
-Ÿ
-java:S2972"^Reduce this class from 26 lines to the maximum allowed 25 or externalize it in a public class.(šäÛşÿÿÿÿJ$bd359488-4a04-4bb9-a750-ea58e555a9a8
 •
 java:S2975"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(êŠáÉûÿÿÿÿJ$e41efb94-5f85-4b00-8386-97fc3221ca93
+\
+java:S1117"9Rename "tasks" which hides the field declared at line 11.(¬ò‡Íûÿÿÿÿ8ïÑ’»ç1
 Š
 java:S1182"HUse super.clone() to create and seed the cloned instance to be returned.(êŠáÉûÿÿÿÿJ$849aca55-a011-425a-b10b-3afe4c68dcc1

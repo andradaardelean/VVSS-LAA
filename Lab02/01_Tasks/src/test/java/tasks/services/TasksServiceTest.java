@@ -16,9 +16,8 @@ import static org.junit.jupiter.api.Assertions.*;
 public class TasksServiceTest {
     @DisplayName("TaskService")
     @Timeout(20)
-    @ParameterizedTest
-    @ValueSource(strings = {"10:10"})
-//  1.Valid
+//    @ParameterizedTest
+//    @ValueSource(strings = {"10:10"})
     @Tag("ECP")
     @Test
     void testParseFromStringToSecondsValidInput() {
@@ -33,121 +32,143 @@ public class TasksServiceTest {
         assertEquals(45000, result); // 12 * 3600 + 30 * 60
     }
 
-//  1.Invalid
+    @Tag("ECP")
+    @Test
+    void testParseFromStringToSecondsInvalidFormat() {
+        // Arrange
+        TasksService tasksService = new TasksService(new ArrayTaskList());
+        String inputTime = "12h00m"; // valid input
+
+        // Act & Assert
+        IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> {
+            tasksService.parseFromStringToSeconds(inputTime);
+        });
+    }
+
+    @Tag("ECP")
+    @Test
+    void testParseFromStringToSecondsInvalidHours() {
+        // Arrange
+        TasksService tasksService = new TasksService(new ArrayTaskList());
+        String inputTime = "25:00"; // invalid hour
+
+        // Act & Assert
+        IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> {
+            tasksService.parseFromStringToSeconds(inputTime);
+        });
+    }
+
+    @Tag("ECP")
+    @Test
+    void testParseFromStringToSecondsNegativeMinutes() {
+        // Arrange
+        TasksService tasksService = new TasksService(new ArrayTaskList());
+        String inputTime = "13:-12"; // invalid minutes
+
+        // Act & Assert
+        IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> {
+            tasksService.parseFromStringToSeconds(inputTime);
+        });
+    }
+
     @Tag("ECP")
     @Test
     void testParseFromStringToSecondsInvalidInput() {
         // Arrange
         TasksService tasksService = new TasksService(new ArrayTaskList());
-        String inputTime = "25:70"; // invalid input
+        String inputTime = "1322"; // invalid format
+
+        // Act & Assert
+        IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> {
+            tasksService.parseFromStringToSeconds(inputTime);
+        });
+    }
+
+    @Tag("ECP")
+    @Test
+    void testParseFromStringToSecondsInvalidInputNegative() {
+        // Arrange
+        TasksService tasksService = new TasksService(new ArrayTaskList());
+        String inputTime = "-12:00"; // invalid format
+
+        // Act & Assert
+        IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> {
+            tasksService.parseFromStringToSeconds(inputTime);
+        });
+    }
+
+    @Tag("BVA")
+    @Test
+    void testParseFromStringToSecondsInvalidHr() {
+        // Arrange
+        TasksService tasksService = new TasksService(new ArrayTaskList());
+        String inputTime = "24:00"; // invalid format
+
+        // Act & Assert
+        IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> {
+            tasksService.parseFromStringToSeconds(inputTime);
+        });
+    }
+
+    @Tag("BVA")
+    @Test
+    void testParseFromStringToSecondsInvalidMin() {
+        // Arrange
+        TasksService tasksService = new TasksService(new ArrayTaskList());
+        String inputTime = "15:60"; // invalid format
+
+        // Act & Assert
+        IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> {
+            tasksService.parseFromStringToSeconds(inputTime);
+        });
+    }
+
+    @Tag("BVA")
+    @Test
+    void testParseFromStringToSecondsInvalidMin2() {
+        // Arrange
+        TasksService tasksService = new TasksService(new ArrayTaskList());
+        String inputTime = "13:59"; // invalid format
 
         // Act
         try {
             int result = tasksService.parseFromStringToSeconds(inputTime);
             // Assert
-            assertEquals(0, result); // Dacă intrarea este invalidă, ar trebui să returnăm 0
+            assertEquals(13*3600+59*60, result); // Dacă intrarea este invalidă, ar trebui să returnăm 0
         }
         catch(IllegalArgumentException ex){
-            assertTrue(false);
+            fail();
         }
     }
 
-//  2.Valid
-    @Tag("ECP")
+    @Tag("BVA")
     @Test
-    void testGetIntervalInHoursValidInput() {
+    void testParseFromStringToSecondsInvalidMin3() {
         // Arrange
         TasksService tasksService = new TasksService(new ArrayTaskList());
-        Task task = new Task("Test Task", new Date(), new Date(), 7200); // valid interval
+        String inputTime = "13:1"; // invalid format
 
         // Act
-        String result = tasksService.getIntervalInHours(task);
-
-        // Assert
-        assertEquals("02:00", result); // 7200 seconds = 2 hours
-    }
-
-//  1.Invalid
-    @Tag("BVA")
-    @Test
-    void testGetIntervalInHoursZeroInterval() {
-        // Arrange
-        TasksService tasksService = new TasksService(new ArrayTaskList());
-        try{
-            Task task = new Task("Test Task", new Date(), new Date(), 0); // zero interval
-
-            // Act
-            String result = tasksService.getIntervalInHours(task);
-
+        try {
+            int result = tasksService.parseFromStringToSeconds(inputTime);
             // Assert
-            assertEquals("00:00", result); // Should default to 0:00 for zero interval
+            assertEquals(13*3600+60, result); // Dacă intrarea este invalidă, ar trebui să returnăm 0
         }
         catch(IllegalArgumentException ex){
-            assertTrue(false);
+            fail();
         }
     }
 
-    //  2.Invalid
     @Tag("BVA")
     @Test
-    void testGetIntervalInHoursDateOutBounded() {
+    void testParseFromStringToSecondsInvalidMin4() {
         // Arrange
         TasksService tasksService = new TasksService(new ArrayTaskList());
-        try{
-            // Create a Calendar instance
-            Calendar calendar = Calendar.getInstance();
+        String inputTime = "13:-1"; // invalid format
 
-            // Set the date to December 31, 1969, 23:59:59 GMT
-            calendar.set(1969, Calendar.DECEMBER, 31, 23, 59, 59);
-
-            // Convert Calendar to Date
-            Date date = calendar.getTime();
-            Task task = new Task("Test Task", date, new Date(), 10800); // zero interval
-
-            // Act
-            String result = tasksService.getIntervalInHours(task);
-
-            // Assert
-            assertEquals("03:00", result); // Should default to 0:00 for zero interval
-        }
-        catch(IllegalArgumentException ex){
-            assertTrue(false);
-        }
-    }
-
-//  1.Valid
-    @Tag("BVA")
-    @Test
-    void testGetIntervalInHoursLargeInterval() {
-        // Arrange
-        TasksService tasksService = new TasksService(new ArrayTaskList());
-        Task task = new Task("Test Task", new Date(), new Date(), 86400); // large interval (24 hours)
-
-        // Act
-        String result = tasksService.getIntervalInHours(task);
-
-        // Assert
-        assertEquals("24:00", result); // 86400 seconds = 24 hours
-    }
-
-    //  2.Valid
-    @Tag("BVA")
-    @Test
-    void testGetIntervalInHoursEqualDates() {
-        // Arrange
-        TasksService tasksService = new TasksService(new ArrayTaskList());
-        try{
-            Date date = new Date();
-            Task task = new Task("Test Task", date, date, 10800); // zero interval
-
-            // Act
-            String result = tasksService.getIntervalInHours(task);
-
-            // Assert
-            assertEquals("03:00", result);
-        }
-        catch(IllegalArgumentException ex){
-            assertTrue(false);
-        }
+        // Act & Assert
+        IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> {
+            tasksService.parseFromStringToSeconds(inputTime);
+        });
     }
 }

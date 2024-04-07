@@ -1,35 +1,10 @@
 
-•	java:S109¿"RAssign this magic number 2 to a well-named constant, and use the constant instead.(àê¥¶8®“ÏÆâ1J$f8b27470-17b1-4fee-9bfd-10be4cc59c0d
-•	java:S109Ì"RAssign this magic number 2 to a well-named constant, and use the constant instead.(ŸÔÆ¸8¯“ÏÆâ1J$0c7f0b7b-6fb4-4964-af14-7db73d2e7719
-•	java:S109Ï"RAssign this magic number 3 to a well-named constant, and use the constant instead.(•á¬ö8¯“ÏÆâ1J$179f07c6-9c35-465a-818b-3fff35260d8f
-	java:S864§"9Add parentheses to make the operator precedence explicit.(Âå‰àúÿÿÿÿ8°“ÏÆâ1J$7fba9c8f-d6d9-4d99-9d23-0a596a83dfd6
 ¨
 java:S1192O"eDefine a constant instead of duplicating this literal "IO exception reading or writing file" 4 times.(ÌÔü¦8³“ÏÆâ1J$ce8ba493-e40a-4e33-b882-0b533c811cc2
-ˆ
-java:S1312"@Rename the "log" logger to comply with the format "LOG(?:GER)?".(á»ªêûÿÿÿÿ8³“ÏÆâ1J$c29cf38e-3d46-498a-9a22-173136dd3eb9
-Ú
-java:S1200"‘Split this class into smaller and more specialized ones to reduce its dependencies on other classes from 22 to the maximum authorized 20 or less.(Ğœê†úÿÿÿÿ8´“ÏÆâ1J$45319bfe-fbdf-4df3-af88-b39dbf1b089b
-m
-java:S1166N"%Either log or rethrow this exception.(©œ¡ÿÿÿÿÿ8µ“ÏÆâ1J$2b8fe457-ebe7-4201-b528-489a6a24cde7
-m
-java:S1166\"%Either log or rethrow this exception.(©œ¡ÿÿÿÿÿ8µ“ÏÆâ1J$3f30160d-25a4-42d3-8bbc-2f6709a993f2
-h
-java:S1166m"%Either log or rethrow this exception.(ï­£Ä8µ“ÏÆâ1J$7cf5595b-d320-46fd-ab24-fc7ae6401833
-n
-java:S1166„"%Either log or rethrow this exception.(©œ¡ÿÿÿÿÿ8µ“ÏÆâ1J$31ccc075-7a70-4104-aa90-e0329cc79732
-n
-java:S1166¶"%Either log or rethrow this exception.(©œ¡ÿÿÿÿÿ8¶“ÏÆâ1J$3d04f66c-484d-42f1-9dd0-03585e8904ef
-‰
-java:S2259`"AA "NullPointerException" could be thrown; "fis" is nullable here.(ß¶­†ÿÿÿÿÿ8Œ—ÏÆâ1J$c8d3d3c3-0e00-4a67-9fd3-03d082e085e3
-‰
-java:S2259R"AA "NullPointerException" could be thrown; "fos" is nullable here.(æŒÕ®ùÿÿÿÿ8Œ—ÏÆâ1J$a8304426-e859-49f9-ba64-829482986ebd
-a
-java:S1451"&Add or update the header of this file.8—ÏÆâ1J$97aaaa38-63e6-43c1-a653-7b96dc2da391
-v
-java:S2208".Explicitly import the specific classes needed.(¸—äéùÿÿÿÿ8—ÏÆâ1J$a0a57c36-240f-4cab-ae4e-15416e34117e
-p
-java:S2208
-".Explicitly import the specific classes needed.(¬›ãD8—ÏÆâ1J$6c34454c-d6c8-48f7-8e1d-d27745af3888
+c
+java:S2259R"AA "NullPointerException" could be thrown; "fos" is nullable here.(æŒÕ®ùÿÿÿÿ8Î±Òç1
+c
+java:S2259`"AA "NullPointerException" could be thrown; "fis" is nullable here.(ß¶­†ÿÿÿÿÿ8Ï±Òç1
 ›	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¼ÌÔ;8‘—ÏÆâ1J$da69dc21-feb1-406f-b10d-316ec8e020ab
 œ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ôâ»Ô8‘—ÏÆâ1J$2f4ab8b1-6135-45aa-9d63-f905cf8fef69
 ¡	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(İ–ë“ûÿÿÿÿ8‘—ÏÆâ1J$22286b23-8c29-4fbc-a717-4ddb5c3fda69
@@ -41,28 +16,22 @@ r
 java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8—ÏÆâ1J$407ec689-9c90-44ff-bd22-ea455737d44e
 x
 java:S14813"0Remove this unused "titleLength" local variable.(ìôå‰ÿÿÿÿÿ8 —ÏÆâ1J$3e31af42-0659-4325-bcf1-8b0a9e44f2f5
-l
-java:S21437")Use the Java 8 Date and Time API instead.(”´­Š8¢—ÏÆâ1J$81ed8c27-fa5c-4da9-9bee-1f8156a372ec
-q
-java:S2143:")Use the Java 8 Date and Time API instead.(ô§ğ…ùÿÿÿÿ8£—ÏÆâ1J$b896b7b7-9a56-446b-8a55-656f02e9df54
 r
 java:S20930"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8¤—ÏÆâ1J$33999007-4faa-449e-9226-3009fdf6adfa
 r
 java:S2093J"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8¦—ÏÆâ1J$32a6a8e2-3221-40e3-98ff-ffcd4692c7c1
 r
 java:S2093X"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8¨—ÏÆâ1J$60fdfe92-5bdf-4168-bc56-1b99a7e074ec
-u
-java:S1943€"2Remove this use of constructor "FileWriter(File)".(Ê¬Ä98­—ÏÆâ1J$9fb0a9f7-ca90-4073-938e-5c015adc43bb
 s
 java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8¯—ÏÆâ1J$47f448da-5114-4ebb-b10b-8380ba137b5a
-v
-java:S1943"2Remove this use of constructor "FileReader(File)".(ı¸’8°—ÏÆâ1J$d5071187-8957-438f-a9b2-f74f02352aa3
 s
 java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8±—ÏÆâ1J$4d38b3d7-b4df-4979-89aa-25cd83e162dd
 ›
 java:S3776ª"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(œÂÁñøÿÿÿÿ8´—ÏÆâ1J$c2c66ae0-a491-4e0b-86c5-e822ef2d9ba1
-²
-java:S1541ª"iThe Cyclomatic Complexity of this method "getIntervalFromText" is 19 which is greater than 10 authorized.(œÂÁñøÿÿÿÿ8¶—ÏÆâ1J$0c2f60bc-224d-45cc-9b6b-9d0beeb690d9
-œ	java:S122º"TAt most one statement is allowed per line, but 2 statements were found on this line.(›Íçéşÿÿÿÿ8¶—ÏÆâ1J$873f77ac-9f04-40ec-b23e-bcddf627da52
-—	java:S122»"TAt most one statement is allowed per line, but 2 statements were found on this line.(Êğôã8¶—ÏÆâ1J$5adaf116-d1e3-4988-b11a-4be0b3b70156
+e
+java:S1659«"BDeclare "hours" and all following declarations on a separate line.(ÚåÏ¾üÿÿÿÿ8ŠĞ’»ç1
+B
+java:S1659¸"Declare "j" on a separate line.(Ù é®şÿÿÿÿ8‹Ğ’»ç1
 „	java:S125¾"<This block of commented-out lines of code should be removed.(À›¸Öûÿÿÿÿ8»—ÏÆâ1J$455ddad7-c502-4249-8580-ab3907f6175f
+D
+java:S1659Ù"!Declare "end" on a separate line.(ÍôÁÑıÿÿÿÿ8Ğ’»ç1
