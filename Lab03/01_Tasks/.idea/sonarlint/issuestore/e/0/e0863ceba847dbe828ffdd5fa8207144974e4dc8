@@ -1,0 +1,20 @@
+
+	java:S881!"HExtract this increment or decrement operator into a dedicated statement.(Ã×øùûÿÿÿÿ8ôÓ¾Çâ1J$f8fb37d3-b01c-4cd0-9f60-94ec6a1d4494
+a
+java:S1451"&Add or update the header of this file.8†Ô¾Çâ1J$c887e93b-7fa8-47f4-85ca-a9449850707c
+}
+java:S1258":Add a constructor to the class, or provide default values.(šÜµ—8‡Ô¾Çâ1J$15b50dbf-e413-4802-b91b-30e5e092878c
+‚
+java:S2057"?Add a "static final long serialVersionUID" field to this class.(šÜµ—8‰Ô¾Çâ1J$abd3ef21-e05c-4daf-8a8a-02e4a75809e2
+n
+java:S1948/"&Make "last" transient or serializable.(š§æäùÿÿÿÿ8‰Ô¾Çâ1J$80b41722-dfe7-43f2-a107-90950f5ceed2
+Ä
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(õÌƒ«8µÇÇâ1J$cb879c54-5a63-4f2f-adde-ef179bce1aed
+¦
+java:S2972"^Reduce this class from 28 lines to the maximum allowed 25 or externalize it in a public class.(¥©òàıÿÿÿÿ8ŒÔ¾Çâ1J$db8e0742-9ba3-4247-a791-441e7df98530
+w
+java:S2974u"4Make this class "final" or add a public constructor.(åŠ¼“8œÔ¾Çâ1J$a3ebdc54-94bc-4e81-a05d-456e72ca3a23
+œ
+java:S2975¸"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(Óıôîûÿÿÿÿ8ŸÔ¾Çâ1J$e483ca5f-f49e-4477-b4fb-1c8c9a4462bd
+‘
+java:S1182¸"HUse super.clone() to create and seed the cloned instance to be returned.(Óıôîûÿÿÿÿ8 Ô¾Çâ1J$10cfce21-d27c-4b8b-98a1-9dd7fceee50e

@@ -1,0 +1,26 @@
+
+k
+java:S3740$"/Provide the parametrized type for this generic.(ãÖÐ·J$dc772d62-a0fb-4c23-8621-a30abc46e920
+j
+java:S3740'"/Provide the parametrized type for this generic.(›ƒÆgJ$076fb02e-2be5-4233-90a8-d2a5663cc410
+–
+java:S1104"UMake tasksList a static final constant or non-public and provide accessors if needed.(ß·Š¢ÿÿÿÿÿJ$570e0d72-b1d0-4a70-a264-d2d58a9c8d21
+”
+java:S1104!"XMake editNewStage a static final constant or non-public and provide accessors if needed.(¿‰‚×J$0980a60a-1e43-4af7-a563-9cda08bb1ddd
+–
+java:S1104""UMake infoStage a static final constant or non-public and provide accessors if needed.(ßÏ¬ÜùÿÿÿÿJ$1b38f925-cffa-494d-a053-c78b77f037f8
+‘
+java:S1104$"UMake mainTable a static final constant or non-public and provide accessors if needed.(ãÖÐ·J$4cb30af0-ad2d-44b7-8f43-eedd708b103f
+n
+java:S1444!"2Make this "public static editNewStage" field final(¿‰‚×J$5ee6bc3e-41f2-495a-8850-7b70551cd60d
+p
+java:S1444""/Make this "public static infoStage" field final(ßÏ¬ÜùÿÿÿÿJ$cea12c9a-b287-4f17-9c4b-a32eb42fd48e
+k
+java:S1444$"/Make this "public static mainTable" field final(ãÖÐ·J$2e3e1ac7-1d6a-4c3f-b534-37ab589e50c5
+w
+java:S2696?"6Make the enclosing method "static" or remove this set.(ôé½ºûÿÿÿÿJ$35b3881a-3cf9-4eda-b7f5-3957aeb87321
+r
+java:S2696Y"6Make the enclosing method "static" or remove this set.(ã¯›ðJ$65734a7a-b450-45ee-bac9-7ea2492f7c32
+|	java:S125\"<This block of commented-out lines of code should be removed.(ÁÄûöþÿÿÿÿJ$2a0e96a7-fd67-46f5-a2f0-76f5d0e0b733
+q
+java:S2696{"6Make the enclosing method "static" or remove this set.(–žÌJJ$a4e8a00c-a6bd-46ad-a082-c50ca69ea80b
