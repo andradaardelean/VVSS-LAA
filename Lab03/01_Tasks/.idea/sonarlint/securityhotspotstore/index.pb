@@ -35,3 +35,5 @@ W
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 b
 2src/test/java/tasks/services/TasksServiceTest.java,1\e\1ed2e4afe6f0e30a24669299239d591463d36916
+\
+,src/test/java/tasks/services/TaskIOTest.java,c\7\c70a72b0c803ac76ce643a9b825cef4440621f2e

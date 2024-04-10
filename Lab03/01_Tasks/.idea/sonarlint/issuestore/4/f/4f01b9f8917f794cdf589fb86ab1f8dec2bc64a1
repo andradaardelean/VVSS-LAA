@@ -3,7 +3,3 @@
 java:S1319"eThe type of "tasks" should be an interface such as "List" rather than the implementation "ArrayList".(±ø¢ÈûÿÿÿÿJ$62d86a28-1def-4db1-aa7d-a9e962b0190b
 s
 java:S1104"QMake tasks a static final constant or non-public and provide accessors if needed.(±ø¢Èûÿÿÿÿ8ò Çâ1
-a
-java:S1451"&Add or update the header of this file.8Ê„±Æâ1J$bb341979-ea57-4d67-add6-7d6733517cf1
-q
-java:S2208".Explicitly import the specific classes needed.(Î€ŒÙ8Ò„±Æâ1J$1690bb4a-5a9d-4537-9586-60856b9888ad

@@ -35,3 +35,5 @@ W
 'src/test/java/tasks/model/TaskTest.java,3\1\31324894a484d06adcd87a923fb98e2c49cb815e
 b
 2src/test/java/tasks/services/TasksServiceTest.java,1\e\1ed2e4afe6f0e30a24669299239d591463d36916
+\
+,src/test/java/tasks/services/TaskIOTest.java,c\7\c70a72b0c803ac76ce643a9b825cef4440621f2e
