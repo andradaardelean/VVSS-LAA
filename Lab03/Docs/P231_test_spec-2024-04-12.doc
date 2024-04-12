@@ -12,7 +12,7 @@
 <p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo"  width= height= src="https://www.scs.ubbcluj.ro/testlink/gui/themes/default/images/tl-logo-transparent-25.png" /></p></div>
 <div class="doc_title"><p>Test Specification</p></div>
 <div class="doc_title" style="text-align:left;margin: auto;"><p>Test Project: Prj231<br/>Test Suite: Prj231 - blir3065_WBT</p></div>
-<div class="summary"><p id="printedby">Printed by TestLink on 11/04/2024</p></div>
+<div class="summary"><p id="printedby">Printed by TestLink on 12/04/2024</p></div>
 <div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
 <h1 class="general" style="page-break-before: always">Table Of Contents</h1><div class="toc"><p style="padding-left: 20px;"><b><a href="#toc_1">1.blir3065_WBT</a></b></p>
 <p style="padding-left: 45px;"><a href="#toc_tc21897">P231-62: TC01-Valid</a></p><p style="padding-left: 45px;"><a href="#toc_tc21899">P231-63: TC01-Invalid</a></p></div><h1 class="doclevel" >Scope</h1>
@@ -22,16 +22,14 @@
 <div><p>Se testeaza functionalitatea de afisare a taskurilor&nbsp;</p>
 </div><a name="toc_tc21897"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case P231-62: TC01-Valid&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
 <tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">blir3065@scs.ubbcluj.ro</td></tr>
-<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se determina urmatoarea aparitie in timp a unui task dat dupa data curenta&nbsp;</p>
+<tr><td width="20%" valign="top"><span class="label">Last edit by:</span></td><td colspan="3">aair3061</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Modificarea din numar de secunde in interval de&nbsp;forma: [dd day hh hours mm minutes ss seconds]</p>
 
-<p>task.dataCurent&nbsp;= 2024-4-1<br />
-task.data = 2024-4-11</p>
+<p>interval = 86400<br />
+result=&quot;1 day&quot;</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>&nbsp;</p>
 
-<p>task.Active = true</p>
-</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>task.end &gt; current<br />
-task.Active = true<br />
-task.Repetead = false<br />
-current &lt; task.time</p>
+<p>Intervalul, reprezentat in secunde, sa fie de tip intreg si pozitiv.</p>
 </td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
 <tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
@@ -43,11 +41,13 @@ current &lt; task.time</p>
 </div>
 <a name="toc_tc21899"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case P231-63: TC01-Invalid&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
 <tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">blir3065@scs.ubbcluj.ro</td></tr>
-<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se determina aparitia unui task dupa data curenta&nbsp;</p>
+<tr><td width="20%" valign="top"><span class="label">Last edit by:</span></td><td colspan="3">aair3061</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Modificarea din numar de secunde in interval de&nbsp;forma: [dd day hh hours mm minutes ss seconds]</p>
 
-<p>currentDate = 2024-4-20<br />
-task.end = 2024-4-11</p>
-</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>currentDate after&nbsp;task.end</p>
+<p>interval =&nbsp;-300</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Intervalul trebuie sa fie negativ sau 0.</p>
 </td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
 <tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
