@@ -80,3 +80,6 @@
 2024-03-26 12:52:43 ERROR Task:37 - time below bound
 2024-03-26 13:20:28 ERROR Task:46 - interval < than 1
 2024-03-26 13:20:28 ERROR Task:37 - time below bound
+2024-04-22 21:25:41 INFO  Main:34 - saved data reading
+2024-04-22 21:25:41 INFO  Main:39 - application start
+2024-04-22 21:25:41 INFO  Controller:74 - Main controller initializing
