@@ -14,12 +14,8 @@ import java.util.Date;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TasksServiceTest {
-    @DisplayName("TaskService")
-    @Timeout(20)
-//    @ParameterizedTest
-//    @ValueSource(strings = {"10:10"})
-    @Tag("ECP")
     @Test
+    @Tag("ECP")
     void testParseFromStringToSecondsValidInput() {
         // Arrange
         TasksService tasksService = new TasksService(new ArrayTaskList());
@@ -32,8 +28,8 @@ public class TasksServiceTest {
         assertEquals(45000, result); // 12 * 3600 + 30 * 60
     }
 
-    @Tag("ECP")
     @Test
+    @Tag("ECP")
     void testParseFromStringToSecondsInvalidFormat() {
         // Arrange
         TasksService tasksService = new TasksService(new ArrayTaskList());
@@ -45,8 +41,8 @@ public class TasksServiceTest {
         });
     }
 
-    @Tag("ECP")
     @Test
+    @Tag("ECP")
     void testParseFromStringToSecondsInvalidHours() {
         // Arrange
         TasksService tasksService = new TasksService(new ArrayTaskList());
@@ -58,8 +54,8 @@ public class TasksServiceTest {
         });
     }
 
-    @Tag("ECP")
     @Test
+    @Tag("ECP")
     void testParseFromStringToSecondsNegativeMinutes() {
         // Arrange
         TasksService tasksService = new TasksService(new ArrayTaskList());
@@ -71,8 +67,8 @@ public class TasksServiceTest {
         });
     }
 
-    @Tag("ECP")
     @Test
+    @Tag("ECP")
     void testParseFromStringToSecondsInvalidInput() {
         // Arrange
         TasksService tasksService = new TasksService(new ArrayTaskList());
@@ -84,8 +80,8 @@ public class TasksServiceTest {
         });
     }
 
-    @Tag("ECP")
     @Test
+    @Tag("ECP")
     void testParseFromStringToSecondsInvalidInputNegative() {
         // Arrange
         TasksService tasksService = new TasksService(new ArrayTaskList());
@@ -97,8 +93,8 @@ public class TasksServiceTest {
         });
     }
 
-    @Tag("BVA")
     @Test
+    @Tag("BVA")
     void testParseFromStringToSecondsInvalidHr() {
         // Arrange
         TasksService tasksService = new TasksService(new ArrayTaskList());
@@ -110,8 +106,8 @@ public class TasksServiceTest {
         });
     }
 
-    @Tag("BVA")
     @Test
+    @Tag("BVA")
     void testParseFromStringToSecondsInvalidMin() {
         // Arrange
         TasksService tasksService = new TasksService(new ArrayTaskList());
@@ -123,8 +119,8 @@ public class TasksServiceTest {
         });
     }
 
-    @Tag("BVA")
     @Test
+    @Tag("BVA")
     void testParseFromStringToSecondsInvalidMin2() {
         // Arrange
         TasksService tasksService = new TasksService(new ArrayTaskList());
@@ -141,8 +137,8 @@ public class TasksServiceTest {
         }
     }
 
-    @Tag("BVA")
     @Test
+    @Tag("BVA")
     void testParseFromStringToSecondsInvalidMin3() {
         // Arrange
         TasksService tasksService = new TasksService(new ArrayTaskList());
@@ -159,8 +155,8 @@ public class TasksServiceTest {
         }
     }
 
-    @Tag("BVA")
     @Test
+    @Tag("BVA")
     void testParseFromStringToSecondsInvalidMin4() {
         // Arrange
         TasksService tasksService = new TasksService(new ArrayTaskList());
