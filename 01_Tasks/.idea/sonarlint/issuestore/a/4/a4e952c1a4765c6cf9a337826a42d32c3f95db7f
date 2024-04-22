@@ -1,9 +1,0 @@
-
-z
-java:S1104"XMake primaryStage a static final constant or non-public and provide accessors if needed.(¢Ñû¦ûÿÿÿÿ8Ð¶í’ì1
-T
-java:S1444"2Make this "public static primaryStage" field final(¢Ñû¦ûÿÿÿÿ8Ò¶í’ì1
-{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(§Ùàíýÿÿÿÿ8³¸í’ì1
-v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ðÕÈ€8µ¸í’ì1
-I
-java:S16028",Remove useless curly braces around statement(çöÔˆ8ú¹í’ì1
