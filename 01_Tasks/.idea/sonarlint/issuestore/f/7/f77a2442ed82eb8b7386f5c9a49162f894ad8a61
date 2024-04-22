@@ -1,0 +1,7 @@
+
+œ
+java:S2975"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(êŠáÉûÿÿÿÿ8Ö½í’ì1J$d2b43a45-f73b-47ad-8cf3-f13f67c9cee7
+‚
+java:S1117"9Rename "tasks" which hides the field declared at line 11.(¬ò‡Íûÿÿÿÿ8Ø½í’ì1J$3b9ccbce-cb29-4db8-976c-907596ae6314
+‘
+java:S1182"HUse super.clone() to create and seed the cloned instance to be returned.(êŠáÉûÿÿÿÿ8Û½í’ì1J$73ef262a-8075-4a9a-b5c2-f5ee07b47f0a
