@@ -76,9 +76,11 @@ public class NewEditController {
     }
     public void setCurrentTask(Task task){
         this.currentTask=task;
-        switch (clickedButton.getId()) {
-            case "btnNew" -> initNewWindow("New Task");
-            case "btnEdit" -> initEditWindow("Edit Task");
+        switch (clickedButton.getId()){
+            case  "btnNew" : initNewWindow("New Task");
+                break;
+            case "btnEdit" : initEditWindow("Edit Task");
+                break;
         }
     }
 
@@ -102,13 +104,13 @@ public class NewEditController {
     private void initEditWindow(String title){
         currentStage.setTitle(title);
         fieldTitle.setText(currentTask.getTitle());
-        datePickerStart.setValue(dateService.getLocalDateValueFromDate(currentTask.getStartTime()));
+        datePickerStart.setValue(DateService.getLocalDateValueFromDate(currentTask.getStartTime()));
         txtFieldTimeStart.setText(dateService.getTimeOfTheDayFromDate(currentTask.getStartTime()));
 
         if (currentTask.isRepeated()){
             checkBoxRepeated.setSelected(true);
             hideRepeatedTaskModule(false);
-            datePickerEnd.setValue(dateService.getLocalDateValueFromDate(currentTask.getEndTime()));
+            datePickerEnd.setValue(DateService.getLocalDateValueFromDate(currentTask.getEndTime()));
             fieldInterval.setText(service.getIntervalInHours(currentTask));
             txtFieldTimeEnd.setText(dateService.getTimeOfTheDayFromDate(currentTask.getEndTime()));
         }
