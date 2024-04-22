@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b386f4b-2a8b-49db-a68f-354d0cdd8efc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/01_Tasks.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1ed2e4afe6f0e30a24669299239d591463d36916" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/26c7ae39591499fab3685c25bb4834dc2fc7cf24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/31324894a484d06adcd87a923fb98e2c49cb815e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4f01b9f8917f794cdf589fb86ab1f8dec2bc64a1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/63fe2cc9c3e91dd6fea9fe629ea649e64db0d708" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/665dec39384a747ccf12fd544bf02f4a3d18695a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d63de46d8ec7dacaab386b187106455df813537" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/90f3d1b886ea9e6023b322a07a34e807fd489693" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/9/99b511d75f317e72fa25245b579d48cb3d074646" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/4/a4e952c1a4765c6cf9a337826a42d32c3f95db7f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba27869b1e0ea8fe162ea3b4618a07816f29da05" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bdb3226c332de5405059c4c6c04ebd0397df388f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c70a72b0c803ac76ce643a9b825cef4440621f2e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c8717992ac90be128c21fa680a390954dd3ffb86" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e0863ceba847dbe828ffdd5fa8207144974e4dc8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/eb67f05314178cc6b3a1e4f981a808f271e00c26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ecf3c385b36af4d118754ee8d9878c48978fcaa9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f77a2442ed82eb8b7386f5c9a49162f894ad8a61" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fc2a13256c261b5abd00e9188b5f42e29358bf6e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/e/1ed2e4afe6f0e30a24669299239d591463d36916" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/6/26c7ae39591499fab3685c25bb4834dc2fc7cf24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/1/31324894a484d06adcd87a923fb98e2c49cb815e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/f/4f01b9f8917f794cdf589fb86ab1f8dec2bc64a1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/3/63fe2cc9c3e91dd6fea9fe629ea649e64db0d708" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/6/665dec39384a747ccf12fd544bf02f4a3d18695a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/d/7d63de46d8ec7dacaab386b187106455df813537" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/0/90f3d1b886ea9e6023b322a07a34e807fd489693" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/9/99b511d75f317e72fa25245b579d48cb3d074646" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/4/a4e952c1a4765c6cf9a337826a42d32c3f95db7f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/a/ba27869b1e0ea8fe162ea3b4618a07816f29da05" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/d/bdb3226c332de5405059c4c6c04ebd0397df388f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/7/c70a72b0c803ac76ce643a9b825cef4440621f2e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/8/c8717992ac90be128c21fa680a390954dd3ffb86" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/0/e0863ceba847dbe828ffdd5fa8207144974e4dc8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/b/eb67f05314178cc6b3a1e4f981a808f271e00c26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/c/ecf3c385b36af4d118754ee8d9878c48978fcaa9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/7/f77a2442ed82eb8b7386f5c9a49162f894ad8a61" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/c/fc2a13256c261b5abd00e9188b5f42e29358bf6e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_Tasks.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/initial/ClassDiagramDepTasks_v1.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/initial/ClassDiagramTasks_v1.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/initial/RequirementsTasks_v1.0.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/initial/RequirementsTasks_v1.0.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/initial/diagram.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tasks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/task-manager-log.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/controller/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/controller/NewEditController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/controller/Notificator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/controller/TaskInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/model/ArrayTaskList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/model/LinkedTaskList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/model/Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/model/TaskList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/model/TasksOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/services/DateService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/services/TaskIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/services/TasksService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/view/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/field-validator.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/main.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/new-edit-task.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/task-info.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tasks/model/TaskTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tasks/services/DateServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tasks/services/TaskIOTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tasks/services/TasksServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/field-validator.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/main.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/new-edit-task.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/task-info.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tasks/controller/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tasks/controller/NewEditController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tasks/controller/Notificator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tasks/controller/TaskInfoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tasks/model/ArrayTaskList$ArrayTaskListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tasks/model/ArrayTaskList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tasks/model/LinkedTaskList$LinkedTaskListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tasks/model/LinkedTaskList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tasks/model/LinkedTaskList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tasks/model/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tasks/model/TaskList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tasks/model/TasksOperations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tasks/services/DateService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tasks/services/TaskIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tasks/services/TasksService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tasks/view/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tasks/model/TaskTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tasks/services/DateServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tasks/services/TaskIOTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tasks/services/TasksServiceTest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2exexiKcT1wQ05bAlifT3XCYMat" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Andrada/UBB INFO/An3Sem2/VVSS/VVSS-LAA/VVSS-LAA/Lab03/01_Tasks",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="tasks.services" />
+      <recent name="tasks.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ArrayTaskListTest">
+    <configuration name="ArrayTaskListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="01_Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tasks.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tasks.model" />
+      <option name="MAIN_CLASS_NAME" value="tasks.model.ArrayTaskListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="01_Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tasks.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tasks.model" />
+      <option name="MAIN_CLASS_NAME" value="tasks.model.TaskTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TasksServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="01_Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tasks.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tasks.services" />
+      <option name="MAIN_CLASS_NAME" value="tasks.services.TasksServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TasksServiceTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="01_Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tasks.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tasks.services" />
+      <option name="MAIN_CLASS_NAME" value="tasks.services.TasksServiceTest2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ArrayTaskListTest" />
+        <item itemvalue="JUnit.TasksServiceTest2" />
+        <item itemvalue="JUnit.TasksServiceTest" />
+        <item itemvalue="JUnit.TaskTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b386f4b-2a8b-49db-a68f-354d0cdd8efc" name="Changes" comment="" />
+      <created>1712850905374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712850905374</updated>
+      <workItem from="1712850907291" duration="874000" />
+      <workItem from="1712930304185" duration="1351000" />
+      <workItem from="1712944622489" duration="15000" />
+      <workItem from="1713726202214" duration="669000" />
+      <workItem from="1713766116772" duration="11000" />
+      <workItem from="1713803753292" duration="2977000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
