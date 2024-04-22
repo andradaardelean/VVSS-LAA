@@ -18,15 +18,14 @@ public class TasksServiceTest {
     @Tag("ECP")
     void testParseFromStringToSecondsValidInput() {
         // Arrange
-//        TasksService tasksService = new TasksService(new ArrayTaskList());
+        TasksService tasksService = new TasksService(new ArrayTaskList());
         String inputTime = "12:30"; // valid input
 
         // Act
-//        int result = tasksService.parseFromStringToSeconds(inputTime);
+        int result = tasksService.parseFromStringToSeconds(inputTime);
 
         // Assert
-//        assertEquals(45000, result); // 12 * 3600 + 30 * 60
-        assertEquals(45000, 45000); // 12 * 3600 + 30 * 60
+        assertEquals(45000, result); // 12 * 3600 + 30 * 60
     }
     @Test
     @Tag("ECP")

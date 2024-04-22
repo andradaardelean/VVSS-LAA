@@ -5,6 +5,8 @@ module tasks {
     requires log4j;
 
 
+    opens tasks.services;
+
     opens tasks.model to javafx.base;
     exports tasks.model;
     opens tasks.view to javafx.fxml;
