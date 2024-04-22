@@ -74,7 +74,6 @@ public class NewEditController {
         this.service =service;
         this.dateService =new DateService(service);
     }
-
     public void setCurrentTask(Task task){
         this.currentTask=task;
         switch (clickedButton.getId()){
