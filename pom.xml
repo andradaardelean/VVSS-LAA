@@ -100,7 +100,7 @@
       </plugin>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.11.0</version> <!-- Update to a version that supports Java 17 -->
+        <version>3.8.0</version> <!-- Update to a version that supports Java 17 -->
         <!-- Add any additional configuration if needed -->
       </plugin>
       <plugin>
@@ -110,11 +110,11 @@
           <!--                <failIfNoTests>false</failIfNoTests>-->
         </configuration>
       </plugin>
-<!--      <plugin>-->
-<!--        <groupId>org.apache.maven.plugins</groupId>-->
-<!--        <artifactId>maven-failsafe-plugin</artifactId>-->
-<!--        <version>2.22.1</version>-->
-<!--      </plugin>-->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-failsafe-plugin</artifactId>
+        <version>2.22.1</version>
+      </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
