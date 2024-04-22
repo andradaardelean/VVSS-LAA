@@ -1,12 +1,85 @@
-2024-04-22 22:00:10 INFO  Main:34 - saved data reading
-2024-04-22 22:00:10 INFO  Main:39 - application start
-2024-04-22 22:00:10 INFO  Controller:74 - Main controller initializing
-2024-04-22 22:04:46 INFO  Main:34 - saved data reading
-2024-04-22 22:04:46 INFO  Main:39 - application start
-2024-04-22 22:04:46 INFO  Controller:74 - Main controller initializing
-2024-04-22 22:35:24 INFO  Main:34 - saved data reading
-2024-04-22 22:35:24 INFO  Main:39 - application start
-2024-04-22 22:35:24 INFO  Controller:74 - Main controller initializing
-2024-04-22 22:40:42 INFO  Main:34 - saved data reading
-2024-04-22 22:40:42 INFO  Main:39 - application start
-2024-04-22 22:40:42 INFO  Controller:74 - Main controller initializing
+2023-02-27 11:33:02 INFO  Main:36 - saved data reading
+2023-02-27 11:33:02 INFO  Main:41 - application start
+2023-02-27 11:33:03 INFO  Controller:74 - Main controller initializing
+2023-02-27 11:33:06 INFO  NewEditController:91 - new/edit window initializing
+2023-02-27 11:33:29 INFO  NewEditController:91 - new/edit window initializing
+2023-02-27 11:34:25 INFO  TaskInfoController:25 - task info window initializing
+2023-02-27 11:34:25 ERROR Controller:127 - error loading task-info.fxml
+2023-02-27 11:34:27 INFO  TaskInfoController:25 - task info window initializing
+2024-02-04 20:47:47 INFO  Main:35 - saved data reading
+2024-02-04 20:47:47 INFO  Main:40 - application start
+2024-02-04 20:47:48 INFO  Controller:74 - Main controller initializing
+2024-02-04 20:47:54 INFO  NewEditController:89 - new/edit window initializing
+2024-02-04 20:48:29 INFO  NewEditController:89 - new/edit window initializing
+2024-02-04 20:49:05 INFO  NewEditController:89 - new/edit window initializing
+2024-02-04 20:49:55 INFO  NewEditController:89 - new/edit window initializing
+2024-02-04 20:50:19 INFO  NewEditController:89 - new/edit window initializing
+2024-02-04 20:50:29 INFO  NewEditController:89 - new/edit window initializing
+2024-02-04 20:50:43 INFO  NewEditController:89 - new/edit window initializing
+2024-02-04 20:50:48 INFO  NewEditController:89 - new/edit window initializing
+2024-02-04 20:51:01 INFO  TaskInfoController:24 - task info window initializing
+2024-02-04 20:51:01 ERROR Controller:127 - error loading task-info.fxml
+2024-02-04 20:51:03 INFO  TaskInfoController:24 - task info window initializing
+2024-02-05 11:47:15 INFO  Main:35 - saved data reading
+2024-02-05 11:47:15 INFO  Main:40 - application start
+2024-02-05 11:47:17 INFO  Controller:74 - Main controller initializing
+2024-02-05 11:48:28 INFO  TaskInfoController:24 - task info window initializing
+2024-03-10 17:21:44 INFO  Main:34 - saved data reading
+2024-03-10 17:21:44 INFO  Main:39 - application start
+2024-03-10 17:21:44 INFO  Controller:74 - Main controller initializing
+2024-03-10 17:21:57 INFO  NewEditController:87 - new/edit window initializing
+2024-03-10 17:22:00 INFO  NewEditController:87 - new/edit window initializing
+2024-03-10 17:22:03 INFO  TaskInfoController:24 - task info window initializing
+2024-03-10 17:22:18 INFO  TaskInfoController:24 - task info window initializing
+2024-03-10 17:22:21 INFO  TaskInfoController:24 - task info window initializing
+2024-03-10 17:26:55 INFO  NewEditController:87 - new/edit window initializing
+2024-03-10 17:27:15 INFO  NewEditController:87 - new/edit window initializing
+2024-03-10 17:27:48 INFO  NewEditController:87 - new/edit window initializing
+2024-03-10 18:20:26 INFO  Main:34 - saved data reading
+2024-03-10 18:20:26 INFO  Main:39 - application start
+2024-03-10 18:20:26 INFO  Controller:74 - Main controller initializing
+2024-03-10 18:20:32 INFO  NewEditController:87 - new/edit window initializing
+2024-03-10 18:20:56 INFO  NewEditController:87 - new/edit window initializing
+2024-03-25 17:00:31 INFO  Main:34 - saved data reading
+2024-03-25 17:00:31 INFO  Main:39 - application start
+2024-03-25 17:00:31 INFO  Controller:74 - Main controller initializing
+2024-03-25 17:00:32 INFO  Notificator:64 - push notification showing
+2024-03-25 18:13:11 ERROR Task:41 - interval < than 1
+2024-03-25 18:13:12 ERROR Task:41 - interval < than 1
+2024-03-25 18:16:08 ERROR Task:41 - interval < than 1
+2024-03-25 18:16:08 ERROR Task:41 - interval < than 1
+2024-03-25 18:18:18 ERROR Task:41 - interval < than 1
+2024-03-25 18:18:18 ERROR Task:41 - interval < than 1
+2024-03-25 18:20:12 ERROR Task:41 - interval < than 1
+2024-03-25 18:20:12 ERROR Task:41 - interval < than 1
+2024-03-25 18:25:15 INFO  Main:34 - saved data reading
+2024-03-25 18:25:15 INFO  Main:39 - application start
+2024-03-25 18:25:15 INFO  Controller:74 - Main controller initializing
+2024-03-25 18:25:35 ERROR Task:41 - interval < than 1
+2024-03-25 18:25:35 ERROR Task:41 - interval < than 1
+2024-03-25 18:27:04 ERROR Task:41 - interval < than 1
+2024-03-25 18:27:04 ERROR Task:41 - interval < than 1
+2024-03-25 18:56:02 ERROR Task:37 - time below bound
+2024-03-25 19:03:10 ERROR Task:37 - time below bound
+2024-03-25 22:54:33 ERROR Task:46 - interval < than 1
+2024-03-25 22:54:33 ERROR Task:37 - time below bound
+2024-03-25 22:54:37 ERROR Task:46 - interval < than 1
+2024-03-25 22:54:37 ERROR Task:37 - time below bound
+2024-03-25 23:43:13 INFO  Main:34 - saved data reading
+2024-03-25 23:43:13 INFO  Main:39 - application start
+2024-03-25 23:43:14 INFO  Controller:74 - Main controller initializing
+2024-03-25 23:44:54 INFO  TaskInfoController:24 - task info window initializing
+2024-03-25 23:44:54 ERROR Controller:127 - error loading task-info.fxml
+2024-03-25 23:44:55 INFO  TaskInfoController:24 - task info window initializing
+2024-03-25 23:44:55 ERROR Controller:127 - error loading task-info.fxml
+2024-03-26 12:27:09 ERROR Task:46 - interval < than 1
+2024-03-26 12:27:09 ERROR Task:37 - time below bound
+2024-03-26 12:42:00 ERROR Task:46 - interval < than 1
+2024-03-26 12:42:00 ERROR Task:37 - time below bound
+2024-03-26 12:52:43 ERROR Task:46 - interval < than 1
+2024-03-26 12:52:43 ERROR Task:37 - time below bound
+2024-03-26 13:20:28 ERROR Task:46 - interval < than 1
+2024-03-26 13:20:28 ERROR Task:37 - time below bound
+2024-04-22 23:18:03 INFO  Main:34 - saved data reading
+2024-04-22 23:18:04 INFO  Main:39 - application start
+2024-04-22 23:18:04 INFO  Controller:74 - Main controller initializing

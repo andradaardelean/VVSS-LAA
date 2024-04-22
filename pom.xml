@@ -84,6 +84,18 @@
       <artifactId>controlsfx</artifactId>
       <version>11.0.1</version>
     </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>2.23.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-junit-jupiter</artifactId>
+      <version>2.23.0</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
 
   <build>
@@ -100,14 +112,12 @@
       </plugin>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.0</version> <!-- Update to a version that supports Java 17 -->
-        <!-- Add any additional configuration if needed -->
+        <version>3.8.0</version>
       </plugin>
       <plugin>
         <artifactId>maven-surefire-plugin</artifactId>
         <version>2.22.1</version>
         <configuration>
-          <forkCount>0</forkCount>
           <!--                <failIfNoTests>false</failIfNoTests>-->
         </configuration>
       </plugin>
@@ -116,15 +126,6 @@
         <artifactId>maven-failsafe-plugin</artifactId>
         <version>2.22.1</version>
       </plugin>
-<!--      <plugin>-->
-<!--        <groupId>org.apache.maven.plugins</groupId>-->
-<!--        <artifactId>maven-compiler-plugin</artifactId>-->
-<!--        <version>3.5.1</version>-->
-<!--        <configuration>-->
-<!--          <source>1.8</source>-->
-<!--          <target>1.8</target>-->
-<!--        </configuration>-->
-<!--      </plugin>-->
       <plugin>
         <artifactId>maven-jar-plugin</artifactId>
         <version>3.0.2</version>
