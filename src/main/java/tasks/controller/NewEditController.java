@@ -74,11 +74,14 @@ public class NewEditController {
         this.service =service;
         this.dateService =new DateService(service);
     }
+
     public void setCurrentTask(Task task){
         this.currentTask=task;
-        switch (clickedButton.getId()) {
-            case "btnNew" -> initNewWindow("New Task");
-            case "btnEdit" -> initEditWindow("Edit Task");
+        switch (clickedButton.getId()){
+            case  "btnNew" : initNewWindow("New Task");
+                break;
+            case "btnEdit" : initEditWindow("Edit Task");
+                break;
         }
     }
 

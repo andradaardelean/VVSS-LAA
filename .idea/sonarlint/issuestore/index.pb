@@ -35,11 +35,3 @@ W
 'src/test/java/tasks/model/TaskTest.java,3\1\31324894a484d06adcd87a923fb98e2c49cb815e
 b
 2src/test/java/tasks/services/TasksServiceTest.java,1\e\1ed2e4afe6f0e30a24669299239d591463d36916
-\
-,src/test/java/tasks/services/TaskIOTest.java,c\7\c70a72b0c803ac76ce643a9b825cef4440621f2e
-a
-1src/test/java/tasks/services/DateServiceTest.java,e\b\eb67f05314178cc6b3a1e4f981a808f271e00c26
-`
-0src/test/java/tasks/model/ArrayTaskListTest.java,b\b\bb3e361b5340906294280c0a5d14d44253f55be2
-c
-3src/test/java/tasks/services/TasksServiceTest2.java,7\c\7cd3a0bb171ee497cade9069ee29d35bfc578287

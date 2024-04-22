@@ -291,12 +291,9 @@ public class TaskIO {
         }
 
         for (int k = i; k <= j; k++){
-            if(time[k] >= 1)
-            {
-                sb.append(k == i ? "" : " ");
-                sb.append(time[k]);
-                sb.append(time[k] > 1 ? TIME_ENTITY[k]+ "s" : TIME_ENTITY[k]);
-            }
+            sb.append(time[k]);
+            sb.append(time[k] > 1 ? TIME_ENTITY[k]+ "s" : TIME_ENTITY[k]);
+            sb.append(" ");
         }
         return sb.toString();
     }

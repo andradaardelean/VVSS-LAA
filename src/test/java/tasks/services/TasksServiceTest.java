@@ -14,8 +14,8 @@ import java.util.Date;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TasksServiceTest {
-//    @DisplayName("TaskService")
-//    @Timeout(20)
+    @DisplayName("TaskService")
+    @Timeout(20)
 //    @ParameterizedTest
 //    @ValueSource(strings = {"10:10"})
     @Tag("ECP")
